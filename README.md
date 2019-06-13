@@ -105,10 +105,10 @@ Here is the available options under the `app` scope:
 
 | key | Value | Description |
 |---|---|---|
-| `name`| `Dynamic`| Based on current application name, the value will be set.|
-| `direction`| `ltr/rtl`| The current direction of the application, defaults to the base direction of the app in the root `config.json` file.|
-| `localeCode`| `Dynamic`| The current locale code of the application, defaults to the base direction of the app in the root `config.json` file.|
-| `env`| `development/production`| Current environment mode of the application, on the `flk serve` it will be `development`.|
-| `baseUrl`| `Dynamic`| The base url set in the root config `config.json` file.|
-| `scriptPath`| `Dynamic`| The script path of the current application, defaults to `/` for base app.|
-| `scriptUrl`| `Dynamic`| The script full url of the current application, defaults to the `baseUrl` combined with `scriptPath` value.|
+| `name`| **Dynamic** | Based on current application name, the value will be set.|
+| `direction`| **ltr/rtl** | The current direction of the application, defaults to the base direction of the app in the root `config.json` file.|
+| `localeCode`| **Dynamic** | The current locale code of the application, defaults to the base direction of the app in the root `config.json` file.|
+| `env`| **development/production** | Current environment mode of the application, on the `flk serve` it will be `development`.|
+| `baseUrl`| **Dynamic** | The base url set in the root config `config.json` file.|
+| `scriptPath`| **Dynamic** | The script path of the current application, defaults to `/` for base app.|
+| `scriptUrl`| **Dynamic** | The script full url of the current application, defaults to the `baseUrl` combined with `scriptPath` value.|
